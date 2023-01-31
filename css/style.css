@@ -9,6 +9,7 @@ body {
     background-color: #f6f8f9;
 }
 
+/* header */
 header {
     background-color: #fff;
     padding: 0.5rem 1rem;
@@ -23,4 +24,68 @@ header {
     font-size: 2.5rem;
     font-weight: 700;
     vertical-align: middle;
+}
+
+/*main*/
+main {
+    margin: 3rem auto 2rem auto;
+    width: 70%;
+}
+
+.px-1 {
+    padding: 1rem 3rem;
+    background-color: #fff;
+}
+
+/* buttons section */
+.buttons {
+    margin-bottom: 0.2rem;
+}
+
+button {
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.5rem 0.7rem;
+    border-radius: 4px;
+}
+
+#active {
+    background-color: #47adf1;
+    color: white;
+}
+
+#disabled {
+    border: 1px solid #d0d6d9;
+}
+
+/* list */
+
+.list {
+    color: #434750;
+    font-size: 1.2rem;
+}
+
+.list-section {
+    padding: 1rem 0;
+}
+
+.check {
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 1rem;
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+    font-size: 0.8rem;
+}
+
+.checkmark {
+    color: #65c1ab;
+    border: 1px solid #65c1ab;
+}
+
+.cross {
+    color: #e73b33;
+    border: 1px solid #e73b33;
 }

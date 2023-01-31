@@ -16,10 +16,38 @@
     </header>
     <!--/header-->
     <main>
-        <section id="buttons"></section>
-        <section id="new-task"></section>
-        <section id="today"></section>
-        <section id="upcoming"></section>
+        <div class="container">
+
+            <section class="buttons px-1">
+                <button id="active">Add Task</button>
+                <button id="disabled" disabled="disabled">Add Section</button>
+            </section>
+
+            <div class="list px-1"> 
+                <section class="list-section" id="new-task">
+                    <h3>&blacktriangledown; New Task</h3>
+                    <span class="task"><span class="check checkmark">&checkmark;</span> Quarterly Newsletter</span>
+                </section>
+
+                <section class="list-section" id="today">
+                    <h3>&blacktriangledown; Today</h3>
+                    <span class="item"><span class="check checkmark">&checkmark;</span> Recruiting blog post</span><br>
+                    <span class="item"><span class="check checkmark">&checkmark;</span> Mobile app launch</span><br>
+                    <span class="item"><span class="check cross">&cross;</span> Interview John H.</span><br>
+                    <span class="item"><span class="check checkmark">&checkmark;</span> Summit update to mobile storefronts</span>
+                </section>
+
+                <section class="list-section" id="upcoming">
+                    <h3>&blacktriangledown; Upcoming</h3>
+                    <span class="item"><span class="check cross">&cross;</span> Schedule meeting with Alex</span><br>
+                    <span class="item"><span class="check checkmark">&checkmark;</span> Homepage refresh</span><br>
+                    <span class="item"><span class="check checkmark">&checkmark;</span> Onboard new Sales team members</span><br>
+                    <span class="item"><span class="check checkmark">&checkmark;</span>
+                    Review editorial calendar</span>
+                </section>
+            </div>
+
+        </div>
     </main>
 </body>
 </html>
