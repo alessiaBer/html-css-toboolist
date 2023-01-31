@@ -86,23 +86,24 @@ button {
     text-align: center;
     width: 1rem;
     height: 1rem;
-    font-size: 0.8rem;
 }
 
 .checkmark {
     color: #65c1ab;
     border: 1px solid #65c1ab;
+    font-size: 0.7rem;
 }
 
 .cross {
     color: #e73b33;
     border: 1px solid #e73b33;
+    font-size: 1rem;
 }
 
 /*labels*/
 .label {
     font-size: 0.7rem;
-    padding: 0.5rem 0.7rem;
+    padding: 0.5rem 0.8rem;
     border-radius: 12px;
     color: #fff;
     margin: 0.5rem;
