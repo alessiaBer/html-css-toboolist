@@ -1,3 +1,4 @@
+/* #region Common*/
 * {
     padding: 0;
     margin: 0;
@@ -9,9 +10,20 @@ body {
     background-color: #f6f8f9;
 }
 
-/* header */
+/* #endregion Common*/
+
+/* #region Utility Classes*/
+.p-1 {
+    padding: 1rem 3rem;
+}
+
+.bg-w {
+    background-color: white;
+}
+/* #endregion Utility Classes*/
+
+/* #region Header */
 header {
-    background-color: #fff;
     padding: 0.7rem 1rem;
 }
 
@@ -26,25 +38,22 @@ header {
     vertical-align: middle;
 }
 
-/*main*/
+/* #endregion Header*/
+
+/* #region Main*/
 main {
     margin: 3rem auto 2rem auto;
     width: 70%;
 }
+/* #endregion Main*/
 
-
-.px-1 {
-    padding: 1rem 3rem;
-    background-color: #fff;
-}
-
-/* buttons section */
+/* #region Buttons */
 .buttons {
     margin-bottom: 0.2rem;
     border-radius: 10px 10px 0 0;
 }
 
-button {
+.btn {
     border: none;
     font-size: 0.8rem;
     font-weight: 500;
@@ -52,33 +61,39 @@ button {
     border-radius: 4px;
 }
 
-#active {
+.active {
     background-color: #47adf1;
     color: white;
 }
 
-#disabled {
+.disabled {
     border: 1px solid #d0d6d9;
 }
+/* #endregion Buttons */
 
-/* list */
+/* #region List */
 
-.list {
+.list-container {
     color: #434750;
     font-size: 1.2rem;
     border-radius: 0 0 10px 10px;
+}
+
+ul {
+    list-style: none;
 }
 
 .list-section {
     padding: 1rem 0;
 }
 
-.item {
-    display: inline-block;
-    margin: 0.5rem 0;
+.list-item {
+    margin: 1rem 0;
 }
 
-/*symbols*/
+/* #endregion List */
+
+/* #region Symbols*/
 .check {
     display: inline-block;
     border-radius: 50%;
@@ -99,8 +114,9 @@ button {
     border: 1px solid #e73b33;
     font-size: 1rem;
 }
+/* #endregion Symbols*/
 
-/*labels*/
+/* #region Labels*/
 .label {
     font-size: 0.7rem;
     padding: 0.5rem 0.8rem;
@@ -132,4 +148,5 @@ button {
 .sales {
     background-color: #b0c926;
 }
+/* #endregion Symbols*/
 
